@@ -1,4 +1,6 @@
 __pycache__/
 *.pyc
 .env
+outputs/*
+!outputs/hasil_logistic_regression.png
 

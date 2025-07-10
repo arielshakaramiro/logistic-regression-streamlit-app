@@ -39,4 +39,4 @@ if st.button("Prediksi"):
     st.success(f"✅ Prediksi: {y_pred} (Probabilitas kelas 1: {prob:.2f})")
 
 if os.path.exists("outputs/hasil_logistic_regression.png"):
-    st.image("outputs/hasil_logistic_regression.png", caption="📈 Visualisasi Hasil Klasifikasi", use_column_width=True)
+    st.image("outputs/hasil_logistic_regression.png", use_container_width=True)
